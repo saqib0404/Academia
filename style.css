@@ -1,6 +1,10 @@
 .carousel-item img{
     height: 100vh;
 }
+.social-icons i{
+    background-color: rgb(59, 59, 59);
+    cursor: pointer;
+}
 
 /*------------
  Media queries
