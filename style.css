@@ -1,5 +1,5 @@
 .carousel-item img{
-    height: 85vh;
+    height: 100vh;
 }
 
 /*------------
@@ -8,5 +8,7 @@
 
 /* Tablet */
 @media only screen and (max-width:768px) {
-    
+    .carousel-item img{
+        height: 100vh;
+    }
 }
