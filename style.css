@@ -6,12 +6,17 @@
 ------------- */
 
 /* Tablet */
-@media only screen and (max-width:768px) {
-    .carousel-item img{
-        height: 50vh;
-    }
+@media only screen and (max-width:992px) {
     .carousel-caption{
         width: 80%;
+    }
+}
+@media only screen and (max-width:768px) {
+    .carousel-item img{
+        height: 60vh;
+    }
+    .carousel-caption{
+        width: 90%;
     }
 }
 .social-icons i{
