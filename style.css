@@ -1,11 +1,6 @@
 .carousel-item img{
     height: 100vh;
 }
-.social-icons i{
-    background-color: rgb(59, 59, 59);
-    cursor: pointer;
-}
-
 /*------------
  Media queries
 ------------- */
@@ -13,6 +8,13 @@
 /* Tablet */
 @media only screen and (max-width:768px) {
     .carousel-item img{
-        height: 100vh;
+        height: 50vh;
     }
+    .carousel-caption{
+        width: 80%;
+    }
+}
+.social-icons i{
+    background-color: rgb(59, 59, 59);
+    cursor: pointer;
 }
